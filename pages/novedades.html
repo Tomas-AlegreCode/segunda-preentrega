@@ -15,26 +15,41 @@
   </head>
   <body>
     <header >
-     <!-- Titulo header -->
-      
-      <h1>The Arcade</h1>
-      
-      <!-- menú desplegable de bootstrap-->
+
+      <!-- logo del header -->
+
+      <div>
+        <img src="/img/logo-header.png" alt="logo de la empresa">
+       </div>
+
+       <!-- menú desplegable de bootstrap, mobile-->
+        
+       <div class="btn-group d-md-none d-xl-none">
+           
+           <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+               Menú
+           </button>
+
+           <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="index.html">Home</a></li>
+               <li><a class="dropdown-item" href="pages/novedades.html">Novedades</a></li>
+               <li><a class="dropdown-item" href="pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+               <li><a class="dropdown-item" href="pages/contacto.html">Contacto</a></li>
+               <li><a class="dropdown-item" href="pages/nuestros-clientes.html">Nuestros Clientes</a></li>
+           </ul>
+       </div>
        
-       <div class="btn-group">
-        
-         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Menú
-         </button>
-        
-            <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../index.html">Home</a></li>
-            <li><a class="dropdown-item" href="novedades.html">Novedades</a></li>
-            <li><a class="dropdown-item" href="sobre-nosotros.html">Sobre Nosotros</a></li>
-            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-            <li><a class="dropdown-item" href="nuestros-clientes.html">Nuestros Clientes</a></li>
-            </ul>
-        </div>
+       <!-- menu de navegacion desktop -->
+
+       <nav class="menu-nav d-none d-md-block">
+           <ul>
+               <li><a class="" href="../index.html">Home</a></li>
+               <li><a class="" href="novedades.html">Novedades</a></li>
+               <li><a class="" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+               <li><a class="" href="contacto.html">Contacto</a></li>
+               <li><a class="" href="nuestros-clientes.html">Nuestros Clientes</a></li>
+           </ul> 
+       </nav>
     </header>
 
     <main>
